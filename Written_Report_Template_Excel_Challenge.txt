@@ -1,0 +1,42 @@
+# Kickstarting with Excel
+
+## Overview and Purpose
+	This project used data collected from the Kickstarter platform to better understand the trends associated with a successful funding campaign.
+	The purpose of this analysis was to gain insight to guide Louisa as she prepared to crowdfund an upcoming production.
+	Two questions we're looking to answer are when Louisa should launch her campaign, and how much she should look to source.
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+	Based on the launch date analysis, funding campaigns for theater programs launched in early Summer are the most likely to succeed.
+	There isn't a strong correlation between a launch date and failed or canceled campaigns, but the holiday season appears to be a more challenging time to launch.
+		
+
+### Analysis of Outcomes Based on Goals
+	Funding campaigns for plays are most successful with goals of $5,000 and less with 73% of plays being fully funded by the end of the campaign.
+	Campaigns with a goal of $10,000 are still more likely to succeed than fail, but historically 55% have succeeded.
+	Though the data shows 67% of plays with a goal between $35,000 and $40,000 are successful, there were only 4 programs total in that range.
+
+### Challenges and Difficulties Encountered
+	One challenge was ensuring all values were accounted for in the COUNTIFS functions.  Thought my data sheet was filtered, I was still pulling from the full data set in my functions.
+	With a dataset so large, it can be difficult to get a "gut check" on if the values being pulled through the functions are correct.
+	It can be a challenge to understand the story behind some of the data- are some campaign owners more well known? Or do they have repeat backers that always donate?
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+	1. Programs launched in early Summer have the greatest likelyhood of being successful, and campaigns launched in Oct, Nov, and Dec have the least likelyhood of being succesful.
+	2. May and June are the most popular months to launch funding campaigns for theater projects.
+
+- What can you conclude about the Outcomes based on Goals?
+	1. Campaigns with smaller goals are the most successful and the majority of campaigns have a goal of $5000 or less.
+	2. As campaign goals rise, the likelyhood of success drops.
+
+- What are some limitations of this dataset?
+	This data set does not provide information on individual pledges.  We can get an average donation, but we aren't able to decifer if one large donation made funding successful.
+	
+
+- What are some other possible tables and/or graphs that we could create?
+	We could look at duration of campaign to understand how long successful and failed campaigns run. 
+	We could evaluate the correlation between "spotlight" campaigns and the level of success or failure.
+	
